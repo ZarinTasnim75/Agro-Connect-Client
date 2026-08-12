@@ -11,7 +11,7 @@ type Category = {
   updatedAt: string;
 };
 
-const API_URL = "http://localhost:5000/api/categories";
+const API_URL = "https://agro-connect-server.onrender.com/api/categories";
 
 export default function CategoriesPage() {
   const [categories, setCategories] = useState<Category[]>([]);

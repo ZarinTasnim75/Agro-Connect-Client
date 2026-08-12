@@ -16,7 +16,7 @@ type Review = {
   };
 };
 
-const REVIEW_API = "http://localhost:5000/api/reviews";
+const REVIEW_API = "https://agro-connect-server.onrender.com/api/reviews";
 
 export default function ReviewsPage() {
   const [reviews, setReviews] = useState<Review[]>([]);

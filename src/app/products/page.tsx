@@ -28,10 +28,10 @@ type Product = {
 };
 
 const PRODUCT_API =
-  "http://localhost:5000/api/products";
+  "https://agro-connect-server.onrender.com/api/products";
 
 const CATEGORY_API =
-  "http://localhost:5000/api/categories";
+  "https://agro-connect-server.onrender.com/api/categories";
 
 export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);
